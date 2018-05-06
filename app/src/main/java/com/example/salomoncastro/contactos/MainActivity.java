@@ -20,12 +20,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         lvContactos = (ListView) findViewById(R.id.lvContactos);
         contactos = new ArrayList<>();
-        contactos.add(new Contacto("Carlos","Castro",73237053,"Santa Tecla"));
-        contactos.add(new Contacto("Andrea","Rovelo",73237053,"Santa Tecla1"));
-        contactos.add(new Contacto("Josseh","Menjivar",73237053,"Santa Tecla2"));
-        contactos.add(new Contacto("Rodrigo","Castro",73237053,"Santa Tecla3"));
-        contactos.add(new Contacto("Adriana","Castaneda",73237053,"Santa Tecla4"));
-        contactos.add(new Contacto("Salomon","Zepeda",73237053,"Santa Tecla5"));
+        contactos.add(new Contacto("Carlos","Castro",73237053,"Santa Tecla1"));
+        contactos.add(new Contacto("Andrea","Rovelo",73237053,"Santa Tecla2"));
+        contactos.add(new Contacto("Josseh","Menjivar",73237053,"Santa Tecla3"));
+        contactos.add(new Contacto("Rodrigo","Castro",73237053,"Santa Tecla4"));
+        contactos.add(new Contacto("Adriana","Castaneda",73237053,"Santa Tecla5"));
+        contactos.add(new Contacto("Salomon","Zepeda",73237053,"Santa Tecla6"));
+        contactos.add(new Contacto("Mario","Rivas",73237053,"Santa Tecla7"));
+        contactos.add(new Contacto("Roberto","Granados :v",73237053,"Santa Tecla8"));
+        contactos.add(new Contacto("Ariel","Castro",73237053,"Santa Tecla9"));
+        contactos.add(new Contacto("Alberto","Ruano",73237053,"Santa Tecla10"));
+        contactos.add(new Contacto("Juana","Rodrigue",73237053,"Santa Tecla11"));
+        contactos.add(new Contacto("Jose","Martir",73237053,"Santa Tecla12"));
+        contactos.add(new Contacto("Gerardo","Orellana",73237053,"Santa Tecla13"));
 
         ArrayList<String> nombreContacto = new ArrayList<>();
 
